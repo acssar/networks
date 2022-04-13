@@ -19,7 +19,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-r2)7-=+p1hel6^^&#1klq3-79c7=#(dymw4=wfx$cl9!(e!#qo'
+SECRET_KEY = 'my secret key'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -109,6 +109,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Настройки бота
 
-TOKEN = '5384002257:AAEkja6ou_snaYSrwBk7hxXjlkjgls2NLMc'
+TOKEN = 'telegram bot token'
 
 
